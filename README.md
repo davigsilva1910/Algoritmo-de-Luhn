@@ -70,3 +70,5 @@ Siga estas etapas para configurar a biblioteca CS50 em seu projeto:
 ## Notas
 
     Utilizei mensagens de saída em inglês para evitar erros no processamento de caracteres acentuados ou especiais.
+
+    Este algoritmo irá verificar se a sintaxe do cartão (American Express, Mastercard ou VISA) é válida ou não. Caso seja válida, será retornada a bandeira do mesmo, caso contrário, será inválido.
