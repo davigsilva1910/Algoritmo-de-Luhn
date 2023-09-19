@@ -19,11 +19,26 @@ int main(void)
 
     if (somaDigitos % 10 == 0)
     {
-        printf("Valid card!\n");
+        if(n >= 340000000000000 && n < 350000000000000 || n >= 370000000000000 && n < 380000000000000)
+        {
+            printf("AMEX\n");
+        }
+        else if(n >= 5100000000000000 && n < 5600000000000000)
+        {
+            printf("MASTERCARD\n");
+        }
+        else if(n >= 4000000000000 && n < 5000000000000 || n >= 4000000000000000 && n < 5000000000000000)
+        {
+            printf("VISA\n");
+        }
+        else
+        {
+            printf("INVALID\n");
+        }
     }
     else
     {
-        printf("Invalid Card!\n");
+        printf("INVALID\n");
     }
     return 0;
 }
