@@ -64,7 +64,7 @@ Siga estas etapas para configurar a biblioteca CS50 em seu projeto:
 ## Iniciais de números dos cartões
 
     Visa: Começa com 4.
-    Mastercard: Geralmente começa com 51, 52, 53, 54, 55 ou, ocasionalmente, 56.
+    Mastercard: Geralmente começa com 51, 52, 53, 54 e 55.
     American Express (Amex): Costuma começar com 34 ou 37.
 
 ## Notas
