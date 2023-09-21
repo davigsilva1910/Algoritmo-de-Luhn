@@ -51,12 +51,6 @@ Siga estas etapas para configurar a biblioteca CS50 em seu projeto:
         return 0;
     }
 
-**Dúvida ou Precisa de Ajuda?**
-
-    Se você tiver alguma dúvida ou precisar de ajuda ao configurar a biblioteca CS50, sinta-se à vontade para entrar em contato diretamente ou pesquise em fóruns de desenvolvimento.
-
-    Aproveite o desenvolvimento do seu projeto!
-
 ## Algoritmo de Luhn
 
     O algoritmo de Luhn, também conhecido como algoritmo de soma de verificação de módulo 10, é um método simples utilizado para verificar a validade de números de cartões de crédito, números de identificação e outros códigos numéricos. Ele funciona calculando a soma dos dígitos dos números em posições específicas, aplicando regras de multiplicação intercalada e verificando se o resultado é divisível por 10. Se for divisível por 10, o número é considerado válido; caso contrário, é identificado como inválido, ajudando a evitar erros de digitação e detectar números falsificados em sistemas que utilizam essa verificação.
@@ -72,3 +66,9 @@ Siga estas etapas para configurar a biblioteca CS50 em seu projeto:
     Utilizei mensagens de saída em inglês para evitar erros no processamento de caracteres acentuados ou especiais.
 
     Este algoritmo irá verificar se a sintaxe do cartão (American Express, Mastercard ou VISA) é válida ou não. Caso seja válida, será retornada a bandeira do mesmo, caso contrário, será inválido.
+
+**Dúvida ou Precisa de Ajuda?**
+
+    Se você tiver alguma dúvida ou precisar de ajuda ao configurar a biblioteca CS50, sinta-se à vontade para entrar em contato diretamente ou pesquise em fóruns de desenvolvimento.
+
+    Aproveite o desenvolvimento do seu projeto!
